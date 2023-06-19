@@ -8,7 +8,7 @@
 modLoader="javafml" #mandatory
 
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
-loaderVersion="[43,)" #mandatory (26 is current forge version)
+loaderVersion="[47,)" #mandatory (26 is current forge version)
 license = "LGPLv3"
 # A URL to refer people to when problems occur with this mod
 
@@ -39,13 +39,13 @@ side="CLIENT"
 [[dependencies.litematica]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.19.2,)"
+versionRange="[1.20,1.21)"
 ordering="NONE"
 side="CLIENT"
 
 [[dependencies.litematica]]
 modId="malilib"
 mandatory=true
-versionRange="[0.15.2,)"
+versionRange="[0.16.0,)"
 ordering="BEFORE"
 side="CLIENT"
