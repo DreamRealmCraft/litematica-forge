@@ -1,9 +1,13 @@
 pluginManagement {
+	// when using additional gradle plugins like shadow,
+	// add their repositories to this list!
 	repositories {
 		maven {
 			name = 'Fabric'
 			url = 'https://maven.fabricmc.net/'
 		}
+		maven { url "https://maven.architectury.dev/" }
+		maven { url "https://files.minecraftforge.net/maven/" }
 		gradlePluginPortal()
 	}
 }
